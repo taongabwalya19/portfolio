@@ -1,4 +1,4 @@
-
+/* Animation Keyframes */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -59,7 +59,7 @@ nav a:hover {
 
 
 main {
-    background: lightgray; 
+    background: hsl(0, 0%, 83%); 
     padding: 3rem;
     border-left: 1px solid rgba(0,0,0,0.05);
     border-right: 1px solid rgba(0,0,0,0.05);
@@ -83,7 +83,7 @@ figure {
 figure img {
     width: 200px;
     height: 200px;
-    border-radius: 80%; 
+    border-radius: 50%; 
     object-fit: cover;
     border: 5px solid white;
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
